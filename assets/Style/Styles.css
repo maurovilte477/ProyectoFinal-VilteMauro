@@ -1,0 +1,67 @@
+#fondo {
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_1280.jpg);
+  background-size: cover;
+}
+#fondo .header {
+  background-color: rgb(0, 0, 63);
+  padding: 5px;
+}
+#fondo .header a {
+  color: white;
+  text-decoration: none;
+}
+#fondo .header .header_contenido {
+  display: flex;
+  align-items: center;
+}
+#fondo .header .header_contenido .logo {
+  padding-left: 50px;
+}
+#fondo .header .header_contenido-links:hover {
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  #fondo .header .logo {
+    padding-left: 0;
+  }
+  #fondo .header .header_contenido {
+    text-align: center;
+  }
+  #fondo .header .header_contenido-links {
+    margin-top: 10px;
+  }
+}
+#fondo .container .main {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 50px;
+  color: white;
+  background-color: rgb(0, 0, 63);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border-radius: 10px;
+}
+#fondo .container .main .titulo {
+  grid-column: 1/3;
+  text-align: center;
+  margin: 50px;
+}
+#fondo .container .main .imagen1 {
+  width: 100%;
+  border-radius: 10px;
+}
+#fondo .container .main .texto {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+@media (max-width: 768px) {
+  #fondo .container .main .imagen1 {
+    grid-column: 1/3;
+    margin-bottom: 20%;
+    margin-left: 50%;
+  }
+  #fondo .container .main .texto {
+    grid-column: 1/3;
+  }
+}/*# sourceMappingURL=Styles.css.map */
