@@ -2,10 +2,11 @@ $col-page:rgb(0, 0, 63);
 $col-text: white;
 #page{
     background-image: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_1280.jpg);
-    background-size: cover;
+    
     .header{
     background-color: $col-page;
     padding: 5px;
+    opacity: 85%;
     a{
         color: $col-text;
         text-decoration: none;
@@ -36,6 +37,7 @@ $col-text: white;
 
 }
 .container{
+    opacity: 85%;
     .main{
         margin-top: 40px;
         margin-bottom: 40px;
@@ -72,5 +74,8 @@ $col-text: white;
             }
         }
     }
+}
+footer{
+    opacity: 85%;
 }
 }
