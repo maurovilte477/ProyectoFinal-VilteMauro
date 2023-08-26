@@ -157,5 +157,22 @@ footer{
             
         }
     }
+}
 
+.mainSC{
+    background-color: $col-page;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 10px;
+    margin-bottom: 50px;
+    h2{
+        color: white;
+        text-align: center;
+    }
+    p{
+        color: white;
+    }
+    .label{
+        color: white;
+    }
 }
